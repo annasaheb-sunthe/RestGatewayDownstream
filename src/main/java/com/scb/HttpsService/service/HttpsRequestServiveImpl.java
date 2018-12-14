@@ -16,21 +16,21 @@ public class HttpsRequestServiveImpl implements HttpsRequestService {
 	}
 
 	private String getResponeMessage() {
-		String responseMessage = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n" + 
-				"<Document>\r\n" + 
-				"  <FIToFIPmtStsRpt>\r\n" + 
-				"    <GrpHdr>\r\n" + 
-				"      <MsgId>EEEE/120929-EUR/059</MsgId>\r\n" + 
-				"      <CreDtTm>2012-09-29T09:00:05</CreDtTm>\r\n" + 
-				"    </GrpHdr>\r\n" + 
-				"	 <CdtTrfTxInf>\n" +
-				"	 	<PmtId>\r\n" +
-				"	 		<InstrId>EEEE/120929-EUR/059/1</InstrId>\r\n" +
-				"	 		<EndToEndId>ABC/ABC-13679/2012-09-15</EndToEndId>\r\n" +
-				"	 		<TxId>BBBB/120928-CCT/EUR/912/1</TxId>\r\n" +
-				"	 	</PmtId>\r\n" +
-				"	 	<PmtTpInf>\r\n" +
-				"  </FIToFIPmtStsRpt>\r\n" + 
+		String responseMessage = "<?xml version=\"1.0\" encoding=\"utf-8\"?>" + 
+				"<Document>" + 
+				"  <FIToFIPmtStsRpt>" + 
+				"    <GrpHdr>" + 
+				"      <MsgId>EEEE/120929-EUR/059</MsgId>" + 
+				"      <CreDtTm>2012-09-29T09:00:05</CreDtTm>" + 
+				"    </GrpHdr>" + 
+				"	 <CdtTrfTxInf>" +
+				"	 	<PmtId>" +
+				"	 		<InstrId>EEEE/120929-EUR/059/1</InstrId>" +
+				"	 		<EndToEndId>ABC/ABC-13679/2012-09-15</EndToEndId>" +
+				"	 		<TxId>BBBB/120928-CCT/EUR/912/1</TxId>" +
+				"	 	</PmtId>" +
+				"	 	<PmtTpInf>" +
+				"  </FIToFIPmtStsRpt>" + 
 				"</Document>";
 		return responseMessage;
 	}
