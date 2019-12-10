@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.scb.HttpsService.service.HttpsRequestService;
-import com.scb.HttpsService.utils.HttpsServiceConstant;
+import com.scb.HttpsService.utils.ContextPathConstants;
 
 import lombok.extern.log4j.Log4j2;
 
@@ -24,7 +24,7 @@ public class HttpsRequestController {
 	@Autowired
 	HttpsRequestService httpsRequestService;
 
-	@RequestMapping(value = HttpsServiceConstant.HTTPS_REQUEST_URL, method = RequestMethod.POST, produces = {"application/xml", "application/json" })
+	@RequestMapping(value = ContextPathConstants.HTTPS_REQUEST_URL, method = RequestMethod.POST, produces = {"application/xml", "application/json" })
 	public String publishHttpsRequest(@RequestHeader Map<String, String> requestMap, @RequestBody String httpsServiceReqBody) {
 		log.info("Request Header received: " + requestMap);
 		log.info("Request Body received: " + httpsServiceReqBody);

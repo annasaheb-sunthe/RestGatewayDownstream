@@ -1,5 +1,5 @@
 package com.scb.HttpsService.utils;
 
-public class HttpsServiceConstant {
+public interface ContextPathConstants {
 	public static final String HTTPS_REQUEST_URL = "/https";
 }
