@@ -28,7 +28,7 @@ public class XmlParser implements RequestParser {
 	@Override
 	public ResponseMessage parse(Object request) {
 		return null;
-	}
+	} 
 
 	@Override
 	public ResponseMessage parse(String request) {

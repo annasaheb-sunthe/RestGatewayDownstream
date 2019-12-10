@@ -15,7 +15,7 @@ import com.scb.HttpsService.service.HttpsRequestService;
 import com.scb.HttpsService.utils.ContextPathConstants;
 
 import lombok.extern.log4j.Log4j2;
-
+ 
 @Component
 @RestController
 @Log4j2

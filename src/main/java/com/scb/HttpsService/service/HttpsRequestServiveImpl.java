@@ -35,7 +35,7 @@ public class HttpsRequestServiveImpl implements HttpsRequestService {
 				"   <InstrId>" + resMsg.getInstructionID() + "</InstrId>" +
 				"   <EndToEndId>" + resMsg.getEndToEndID() + "</EndToEndId>" +
 				"   <TxId>" + resMsg.getTransactionID() + "</TxId>" +
-				"  </PmtId>" +
+				"  </PmtId>" + 
 				"  <PmtTpInf>" +
 				"   <InstrPrty>" + resMsg.getInstructedParty() + "</InstrPrty>" +
 				"  </PmtTpInf>" +
