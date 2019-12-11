@@ -7,7 +7,7 @@ import com.scb.HttpsService.utils.RequestParser;
 import com.scb.HttpsService.utils.XmlParser;
 
 import lombok.extern.log4j.Log4j2;
-
+ 
 @Service
 @Log4j2
 public class HttpsRequestServiveImpl implements HttpsRequestService {

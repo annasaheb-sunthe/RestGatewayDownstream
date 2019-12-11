@@ -33,7 +33,7 @@ public class XmlParser implements RequestParser {
 	@Override
 	public ResponseMessage parse(String request) {
 
-		ResponseMessage responseMessage = null;
+		ResponseMessage responseMessage = null; 
 
 		try {
 			// File inputFile = new File("input.txt");

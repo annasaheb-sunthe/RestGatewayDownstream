@@ -9,7 +9,7 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
- 
+
 @Getter @Setter @Builder @AllArgsConstructor @ToString @XmlRootElement @XmlAccessorType(XmlAccessType.FIELD) 
 public class ResponseMessage {
 	private String messageID;
